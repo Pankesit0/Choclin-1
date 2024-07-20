@@ -72,9 +72,9 @@ header {
 }
 
 .banner {
-  background-color: #f5f5dc; 
-  padding: 40px;
-  text-align: center;
+  background-color: #ffffff; 
+  padding: 0px;
+  text-align: auto;
 }
 
 .banner img {

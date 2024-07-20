@@ -7,14 +7,14 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #fff; /* White */
-  background-color: #000; /* Black */
+  color: #fff; 
+  background-color: #000; 
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff; /* White */
+  color: #fff;
 }
 
 p {
@@ -23,14 +23,12 @@ p {
 
 a {
   text-decoration: none;
-  color: #fff; /* White */
+  color: #fff;
 }
 
 a:hover {
-  color: #ccc; /* Light Gray */
+  color: #ccc; 
 }
-
-/* Header Styles */
 
 header {
   background-color: #000; /* Black */
@@ -62,18 +60,52 @@ header {
 }
 
 .nav-links a {
-  color: #fff; /* White */
+  color: #fff; 
 }
 
 .nav-links a:hover {
-  color: #ccc; /* Light Gray */
+  color: #ccc; 
 }
 
 .burger {
   display: none;
 }
 
-/* Hero Styles */
+.banner {
+  background-color: #f5f5dc; 
+  padding: 40px;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.banner h2 {
+  margin-top: 20px;
+  color: #000; /* Black */
+}
+
+.banner p {
+  margin-bottom: 20px;
+  color: #666; /* Dark Gray */
+}
+
+.banner button {
+  background-color: #000; /* Black */
+  color: #f5f5dc; /* Beige */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background-color: #666; /* Dark Gray */
+}
 
 .hero {
   background-color: #000; /* Black */

@@ -31,7 +31,7 @@ a:hover {
 }
 
 header {
-  background-color: #000; /* Black */
+  background-color: #000; 
   padding: 20px;
   text-align: center;
   display: flex;
@@ -79,24 +79,24 @@ header {
 
 .banner img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .banner h2 {
   margin-top: 20px;
-  color: #000; /* Black */
+  color: #000; 
 }
 
 .banner p {
   margin-bottom: 20px;
-  color: #666; /* Dark Gray */
+  color: #666; 
 }
 
 .banner button {
-  background-color: #000; /* Black */
-  color: #f5f5dc; /* Beige */
+  background-color: #000; 
+  color: #f5f5dc; 
   border: none;
   padding: 10px 20px;
   font-size: 18px;
@@ -104,27 +104,27 @@ header {
 }
 
 .banner button:hover {
-  background-color: #666; /* Dark Gray */
+  background-color: #666;/
 }
 
 .hero {
-  background-color: #000; /* Black */
+  background-color: #000; 
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff; /* White */
+  color: #fff;
 }
 
 .hero h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  color: #fff; /* White */
+  color: #fff; 
 }
 
 .hero button {
-  background-color: #fff; /* White */
-  color: #000; /* Black */
+  background-color: #fff; 
+  color: #000;
   border: none;
   padding: 10px 20px;
   font-size: 18px;
@@ -132,19 +132,16 @@ header {
 }
 
 .hero button:hover {
-  background-color: #ccc; /* Light Gray */
+  background-color: #ccc; 
 }
-
-/* Offers Styles */
-
 .offers {
-  background-color: #f5f5dc; /* Beige */
+  background-color: #f5f5dc; 
   padding: 40px;
 }
 
 .offers h2 {
   margin-bottom: 20px;
-  color: #000; /* Black */
+  color: #000;/
 }
 
 .offers.row {
@@ -179,7 +176,7 @@ header {
 
 .menu h2 {
   margin-bottom: 20px;
-  color: #000; /* Black */
+  color: #000; 
 }
 
 .gallery {
@@ -211,21 +208,19 @@ header {
   font-size: 16px;
   margin-top: 10px;
   text-align: center;
-  color: #666; /* Gray */
+  color: #666;
 }
 
-/* Footer Styles */
-
 footer {
-  background-color: #000; /* Black */
+  background-color: #000; 
   padding: 40px;
   text-align: center;
-  color: #fff; /* White */
+  color: #fff; 
 }
 
 footer h2 {
   margin-bottom: 10px;
-  color: #fff; /* White */
+  color: #fff; 
 }
 
 footer ul {
@@ -239,11 +234,11 @@ footer li {
 }
 
 footer a {
-  color: #fff; /* White */
+  color: #fff; 
 }
 
 footer a:hover {
-  color: #ccc; /* Light Gray */
+  color: #ccc; 
 }
 
 footer .social {
@@ -263,12 +258,12 @@ footer .social i {
 }
 
 footer .social i:hover {
-  color: #ccc; /* Light Gray */
+  color: #ccc; 
 }
 
 footer .cta {
-  background-color: #fff; /* White */
-  color: #000; /* Black */
+  background-color: #fff; 
+  color: #000;
   border: none;
   padding: 10px 20px;
   font-size: 18px;
@@ -276,13 +271,10 @@ footer .cta {
 }
 
 footer .cta:hover {
-  background-color: #ccc; /* Light Gray */
+  background-color: #ccc;
 }
 
-/* Tablet Styles */
-
 @media only screen and (max-width: 1024px) {
-  /* Header Styles */
   .logo {
       width: 80px;
       height: 80px;
@@ -301,14 +293,12 @@ footer .cta:hover {
       font-size: 24px;
       cursor: pointer;
   }
-  /* Hero Styles */
   .hero {
       height: 80vh;
   }
   .hero h1 {
       font-size: 36px;
   }
-  /* Offers Styles */
   .offers .row {
       flex-direction: column;
   }
@@ -316,7 +306,6 @@ footer .cta:hover {
       width: 100%;
       margin: 20px 0;
   }
-  /* Menu Styles */
   .gallery {
       flex-direction: column;
   }
@@ -324,7 +313,6 @@ footer .cta:hover {
       width: 100%;
       margin: 20px 0;
   }
-  /* Footer Styles */
   footer {
       padding: 20px;
   }
@@ -340,10 +328,7 @@ footer .cta:hover {
   }
 }
 
-/* Mobile Styles */
-
 @media only screen and (max-width: 768px) {
-  /* Header Styles */
   .logo {
       width: 60px;
       height: 60px;
@@ -360,14 +345,12 @@ footer .cta:hover {
   .burger {
       font-size: 20px;
   }
-  /* Hero Styles */
   .hero {
       height: 60vh;
   }
   .hero h1 {
       font-size: 24px;
   }
-  /* Offers Styles */
   .offers .row {
       flex-direction: column;
   }
@@ -375,7 +358,6 @@ footer .cta:hover {
       width: 100%;
       margin: 10px 0;
   }
-  /* Menu Styles */
   .gallery {
       flex-direction: column;
   }
@@ -383,7 +365,6 @@ footer .cta:hover {
       width: 100%;
       margin: 10px 0;
   }
-  /* Footer Styles */
   footer {
       padding: 10px;
   }
